@@ -44,7 +44,7 @@ class Navbar extends Component {
                 <div class="navbar-brand justify-content-center">
                     <a class="navbar-item navbar-logo" href={siteUrl}>
                         {navbarLogo}
-                    </a>
+                        <span class="site-title">越客软件 官方博客</span></a>
                 </div>
                 <div class="navbar-menu">
                     {Object.keys(menu).length ? <div class="navbar-start">
